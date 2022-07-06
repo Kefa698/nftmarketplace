@@ -16,6 +16,7 @@ contract NftMarketplace {
         uint256 price;
         address seller;
     }
+    ////events//////
     event ItemListed(
         address indexed seller,
         address indexed nftAddress,
